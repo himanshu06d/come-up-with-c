@@ -6,7 +6,7 @@
 #include <stdint.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
+#include <string.h>  //including library files
 
 int main()
 {
@@ -15,7 +15,7 @@ int main()
    scanf("%d",&num);
 
   
-   if (num==1)
+   if (num==1)  //conditional statement
    {
        printf("one");
    }
@@ -55,5 +55,5 @@ int main()
    {
        printf("Greater than 9");
    }
-    return 0;
+    return 0; //return type
 }
