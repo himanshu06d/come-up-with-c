@@ -1,15 +1,15 @@
 #include <stdio.h>
 
-int max_of_four(int a, int b, int c, int d)
+int max_of_four(int a, int b, int c, int d) \\user defined function
 {
-    int max;
+    int max; \\initialise the variables
 
-    if(a>b && a>c && a>d)
+    if(a>b && a>c && a>d)   \\conditional statement
     {
         max=a;
     }
 
-   else if(b>a && b>c && b>d)
+   else if(b>a && b>c && b>d)  \\another conditional statement
     {
         max=b;
     }
