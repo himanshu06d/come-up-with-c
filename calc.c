@@ -7,7 +7,7 @@ int main() {
     printf("Enter two operands: ");
     scanf("%lf %lf", &first, &second);
 
-    switch (operator) {
+    switch (operator) {  //design algo
     case '+':
         printf("%.1lf + %.1lf = %.1lf", first, second, first + second);
         break;
