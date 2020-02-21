@@ -11,7 +11,7 @@ int main() {
     else {
         for (i = 1; i <= n; ++i) {
             fact *= i;
-        }
+        } //loop
         printf("Factorial of %d = %llu", n, fact);
     }
 
