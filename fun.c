@@ -24,7 +24,7 @@ int max_of_four(int a, int b, int c, int d) //user defined function
         max=d;
     }
 
-    return max;
+    return max; //return type
 }
 
 
