@@ -4,7 +4,7 @@ int main() {
     double first, second;
     printf("Enter an operator (+, -, *,): ");
     scanf("%c", &operator);
-    printf("Enter two operands: ");
+    printf("Enter two operands: ");//print statement
     scanf("%lf %lf", &first, &second);
 //algo
     switch (operator) {  //design algo
