@@ -2,7 +2,7 @@
 void main()
 
 {
-int a,b,c;
+int a,b,c;//int declared
 
 	printf("enter the two numbers = ");
 	scanf("%d%d",&a,&b); //save the value
