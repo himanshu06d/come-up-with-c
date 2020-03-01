@@ -20,4 +20,4 @@ int main( )
    printf("\nnum1 value is %d", num1);
    printf("\nnum2 value is %d", num2);
    return 0;
-}
+}//end of program
