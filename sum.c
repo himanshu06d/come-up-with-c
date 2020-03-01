@@ -1,5 +1,5 @@
 #include<stdio.h>//including library file
-void main()
+void main()//include main function
 
 {
 int a,b,c;
