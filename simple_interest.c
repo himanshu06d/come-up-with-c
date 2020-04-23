@@ -1,14 +1,15 @@
 #include<stdio.h>
 int main()
 {
-	float p,r,t,SI;
-	printf("Enter principle amount = "/n);
-	scanf("%d",&p);
-	printf("Enter rate of interest = "/n);
-	scanf("%d",&r);
-	printf("Enter time duration = "/n);
-	scanf("%d",&t);
-	SI=p*r*t/100;
-	printf("Simple interest of given details is %d",SI);
-	return 0;
+        float p,r,t,SI;
+        printf("Enter principle amount = \n");
+        scanf("%f",&p);
+        printf("Enter rate of interest = \n");
+        scanf("%f",&r);
+        printf("Enter time duration = \n");
+        scanf("%f",&t);
+        SI=p*r*t/100;
+        printf("Simple interest of given details is %f",SI);
+        return 0;
 }
+
